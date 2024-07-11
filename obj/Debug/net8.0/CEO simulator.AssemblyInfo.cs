@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CEO simulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fdc3d18dd2c8810fb066f993650cc9d2398ec1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CEO simulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CEO simulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LkVwO87Mdvq4coGGNTZNDJCjp2AzNr9fHmzPZSSHbw8kp5W6GozfT17xZdPcMBSjAhGr1BR93FE0fSwBsp83LA==",
+  "dgSpecHash": "XNpl9pV8Gb1Ll48/L/M2XU1tT6UeR5CLEVHKxmESP5I+4O+ZQeaEkNBzZi3dU4LkWGrhJJpfV/yv3UXaXHchPA==",
   "success": true,
-  "projectFilePath": "D:\\WorkSpace\\CEO simulator\\CEO simulator.csproj",
+  "projectFilePath": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\CEO simulator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leungM\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

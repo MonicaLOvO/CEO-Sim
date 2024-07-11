@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\CEO simulator\\CEO simulator.csproj": {}
+    "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\CEO simulator.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\CEO simulator\\CEO simulator.csproj": {
+    "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\CEO simulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\CEO simulator\\CEO simulator.csproj",
+        "projectUniqueName": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\CEO simulator.csproj",
         "projectName": "CEO simulator",
-        "projectPath": "D:\\WorkSpace\\CEO simulator\\CEO simulator.csproj",
+        "projectPath": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\CEO simulator.csproj",
         "packagesPath": "C:\\Users\\leungM\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\CEO simulator\\obj\\",
+        "outputPath": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leungM\\AppData\\Roaming\\NuGet\\NuGet.Config",

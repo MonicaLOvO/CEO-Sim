@@ -3,6 +3,9 @@ using System;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
+    /// <summary>
+    /// Starting place of the program
+    /// </summary>
     internal class Starting
     {
         private static GameLogic gameLogic = new GameLogic();
@@ -18,9 +21,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             //start game
             gameLogic.Start();
-
-            //LoadData.SaveData(LoadData.LoadItem());
-            //LoadData.SaveData(LoadData.LoadEvent());
 
         }
     }
