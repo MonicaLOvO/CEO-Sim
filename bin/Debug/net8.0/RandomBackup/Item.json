@@ -1,0 +1,94 @@
+{
+  "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.ShopItem, CEO simulator]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "Double",
+      "ItemPrice": 500.0,
+      "ItemDescription": "Double every thing you will get in 2 days",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": 2.0,
+        "ReputationEffect": 2.0,
+        "IsDuration": true,
+        "IsEndEffect": false,
+        "Duration": 2,
+        "CalculationType": 1
+      }
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "IL50",
+      "ItemPrice": 50.0,
+      "ItemDescription": "I love 50$! Every time you get money, you will have a addition of 50$. in 2 day",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": 50.0,
+        "ReputationEffect": 0.0,
+        "Duration": 2,
+        "IsDuration": true,
+        "CalculationType": 0
+      }
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "Kind",
+      "ItemPrice": 350.0,
+      "ItemDescription": "You will exuding the charm of a kindness, and gain 8 Rep per day. in 2 day",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": 0.0,
+        "ReputationEffect": 10.0,
+        "IsDuration": true,
+        "Duration": 2,
+        "IsEndEffect": true,
+        "CalculationType": 0
+      }
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "MoreM",
+      "ItemPrice": 400.0,
+      "ItemDescription": "More money! You will get a double of your Company turnover in the end of today",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": 2.0,
+        "ReputationEffect": 0.0,
+        "IsEndEffect": true,
+        "Duration": 1,
+        "IsDuration": true,
+        "CalculationType": 1
+      }
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "Altruism",
+      "ItemPrice": 0.0,
+      "ItemDescription": "You will spread half of your company turnover to the world, \npeople loves you and you will gain one third of your Rep in the end of today ",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": -2.0,
+        "ReputationEffect": 1.5,
+        "IsDuration": true,
+        "Duration": 1,
+        "IsEndEffect": true,
+        "CalculationType": 1
+      }
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+      "ItemName": "Reward",
+      "ItemPrice": 450.0,
+      "ItemDescription": "You will gain 300$ per day, in 3 day",
+      "Effect": {
+        "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+        "MoneyEffect": 300.0,
+        "ReputationEffect": 0.0,
+        "IsDuration": true,
+        "Duration": 3,
+        "IsEndEffect": true,
+        "CalculationType": 0
+      }
+    }
+  ]
+}

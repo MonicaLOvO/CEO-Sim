@@ -1,0 +1,337 @@
+{
+  "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Event, CEO simulator]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 500.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": false,
+              "CalculationType": 0,
+              "Duration": 0
+            },
+            
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": 35,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "The cat looks happy and left, you found out that it was sitting on 500$ (+500$)",
+            "OptionText": "Pet him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 0.0,
+              "ReputationEffect": 10.0,
+              "IsDuration": false,
+              "CalculationType": 0,
+              "Duration": 0
+            },
+            
+            "MoneyRequirement": 2000.0,
+            "ReputationRequirement": 0,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Someone take a picture of you feeding cat and post it online (+10 Rep)",
+            "OptionText": "Feed him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 0.0,
+              "ReputationEffect": -1000.0,
+              "IsDuration": false,
+              "CalculationType": 0,
+              "Duration": 0
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": -10,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Someone take a picture of you kicking cat and post it online. (-10 Rep)",
+            "OptionText": "kick him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": -2000.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": false,
+              "CalculationType": 0,
+              "Duration": 0
+            },
+
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": -30,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "The cat is scared and scratches your clothes, you have to buy a new one now. (-200$)",
+            "OptionText": "yall at him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 0.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": false,
+              "CalculationType": 0,
+              "Duration": 0
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "You walk past the cat, nothing happend. But... you can never know what would happen if you interact with the cat, sadly you don't know when is the next time you will meet this cat......'",
+            "OptionText": "Ignore him "
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "EventText": "You Accidently meet a little cat.",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 1000.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": false,
+              "CalculationType": 0
+            },
+            "MoneyRequirement": 3000.0,
+            "ReputationRequirement": 0,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "The project worked well and get 2000$(+2000$)",
+            "OptionText": "Invest a high risk high return project (Require 1000$)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 0.0,
+              "ReputationEffect": -10.0,
+              "IsDuration": false,
+              "CalculationType": 0
+            },
+            "MoneyRequirement": 100.0,
+            "ReputationRequirement": 0,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "The goverment found out the market, you got nothing back (-10 Rep)",
+            "OptionText": "invest a black market (Require 10 Rep)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": -100.0,
+              "ReputationEffect": 10.0,
+              "IsDuration": false,
+              "CalculationType": 0
+            },
+            "MoneyRequirement": 500.0,
+            "ReputationRequirement": 20,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Winnig and losing balanced out, you got nothing back, \nbut help out some start up company has gain you some reputation. (+10 Rep,-100$)",
+            "OptionText": "Invest in some small start up company (Require 100$)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 10.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": false,
+              "CalculationType": 0
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Investment always come with risk, playing save is never a bad choice. as a award, you got 10$(+10$)",
+            "OptionText": "Do nothing"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          1,
+          2
+        ]
+      },
+      "EventText": "You have an opportunity want to do some investment",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+              "MoneyEffect": 3.0,
+              "ReputationEffect": -2.0,
+              "IsDuration": true,
+              "IsEndEffect": true,
+              "CalculationType": 1,
+              "Duration": 3
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": 0,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "in 3 day, your company will have triple company turnover, \nbut your staffs thinks you are a horrible boss(x3$,/2 Rep per day)",
+            "OptionText": "Ask your staffs to work overtime"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+              "MoneyEffect": -2.0,
+              "ReputationEffect": 0.0,
+              "IsDuration": true,
+              "IsEndEffect": true,
+              "Duration": 1,
+              "CalculationType": 1
+            },
+
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Your staffs see you at midnight, they freak out and have a mental break down, \ntodays company turnover reduced to half(/2)",
+            "OptionText": "Check on employee Progress"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+              "MoneyEffect": 0.0,
+              "ReputationEffect": 20.0,
+              "IsDuration": false,
+              "Duration": 0,
+              "CalculationType": 0
+            },
+            
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": 20,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Your staffs feeling warm and your kindness spread throughout the galaxy(+20 Rep)",
+            "OptionText": "Show some care to the staffs who work till night"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          3
+        ]
+      },
+      "EventText": "May be you can walk around in your company?",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+              "MoneyEffect": 2.0,
+              "ReputationEffect": -1.3,
+              "IsDuration": true,
+              "IsEndEffect": true,
+              "Duration": 3,
+              "CalculationType": 1
+            },
+            
+            "MoneyRequirement": 1000,
+            "ReputationRequirement": 5,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "in 3 day, your company will have double company turnover, \nbut your staffs thinks you are a horrible boss(x2$,/1.3 Rep per day)",
+            "OptionText": "Ask your staffs to work harder"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+              "MoneyEffect": 0.8,
+              "ReputationEffect": 1.5,
+              "IsDuration": true,
+              "IsEndEffect": true,
+              "CalculationType": 1,
+              "Duration": 3
+            },
+            
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": 25,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "in 3 day, your company will have little less company turnover, \nbut your staffs thinks you are a very good boss(x0.8$,*1.5 Rep per day)",
+            "OptionText": "Tell your staffs take brake"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "effect": {
+              "$type": "CEO_simulator.EntityInfomation.EffectFolder.DurationEffect, CEO simulator",
+              "MoneyEffect": 1.2,
+              "ReputationEffect": 0.0,
+              "IsDuration": true,
+              "IsEndEffect": true,
+              "Duration": 1,
+              "CalculationType": 1
+            },
+            
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "AddStaff": false,
+            "RemoveStaff": false,
+            "OptionResult": "Your staffs see you and stop being non-productive(*1.2$ today)",
+            "OptionText": "Walk around"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          1,
+          2
+        ]
+      },
+      "EventText": "May be you can change some company strategy?",
+      "InCompany": true
+    }
+  ]
+}

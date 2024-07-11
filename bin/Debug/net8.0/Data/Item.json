@@ -1,0 +1,215 @@
+{
+   "$type":"System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.ShopItem, CEO simulator]], System.Private.CoreLib",
+   "$values":[
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"Double",
+         "ItemPrice":1000.0,
+         "ItemDescription":"Double every thing you will get in 2 days",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantDurationEffect, CEO simulator",
+          "Duration": 2,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 2.0,
+            "calculationType": 1
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 2.0,
+            "calculationType": 1
+          },
+          "StaffChange": null,
+          "IsDuration": true,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"IL100",
+         "ItemPrice":750.0,
+         "ItemDescription":"I love 100$! Every time you get money, you will have a addition of 100$. in 3 day",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantDurationEffect, CEO simulator",
+          "Duration": 3,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 100.0,
+            "calculationType": 0
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "StaffChange": null,
+          "IsDuration": true,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"Kindness",
+         "ItemPrice":550.0,
+         "ItemDescription":"You will exuding the charm of a kindness, and gain 8 Rep per day. in 3 day",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+          "Duration": 3,
+          "IsEndEffect": true,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 8.0,
+            "calculationType": 0
+          },
+          "StaffChange": null,
+          "IsDuration": true,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"MoreMoney",
+         "ItemPrice":600.0,
+         "ItemDescription":"More money! You will get a triple of your Company turnover in the end of today",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+          "Duration": 1,
+          "IsEndEffect": true,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 3.0,
+            "calculationType": 1
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "StaffChange": null,
+          "IsDuration": true,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"Altruism",
+         "ItemPrice":0.0,
+         "ItemDescription":"You will spread half of your money to the world, \npeople loves you and your current Rep will be triple.",
+         "Effect":{
+            "$type":"CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+            "ActualMoneyEffect":0.0,
+            "ActualReputationEffect":0.0,
+            "MoneyChange":{
+               "$type":"CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+               "Value":-2.0,
+               "calculationType":1
+            },
+            "ReputationChange":{
+               "$type":"CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+               "Value":3.0,
+               "calculationType":1
+            },
+            "StaffChange":null,
+            "IsDuration":false,
+            "Weight":0,
+            "OptionResult":null
+         }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"Reward",
+         "ItemPrice":900.0,
+         "ItemDescription":"You will gain 300$ and 2 Rep per day, in 7 day",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+          "Duration": 7,
+          "IsEndEffect": true,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 300.0,
+            "calculationType": 0
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 2.0,
+            "calculationType": 0
+          },
+          "StaffChange": null,
+          "IsDuration": true,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"Persona!",
+         "ItemPrice":50.0,
+         "ItemDescription":"10 of your staffs will show there true ability (random their ability)",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+          "ActualMoneyEffect": 0.0,
+          "ActualReputationEffect": 0.0,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "StaffChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+            "EffectStaffAmount": 10,
+            "calculationType": 2,
+            "AdditionAbility": 0.0
+          },
+
+          "IsDuration": false,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      },
+      {
+         "$type":"CEO_simulator.EntityInfomation.ShopItem, CEO simulator",
+         "ItemName":"SmartPosion",
+         "ItemPrice":150.0,
+         "ItemDescription":"10 of your Staffs will drink the posion and become more smart (+5 ability)",
+        "Effect": {
+          "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+          "ActualMoneyEffect": 0.0,
+          "ActualReputationEffect": 0.0,
+          "MoneyChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "ReputationChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+            "Value": 0.0,
+            "calculationType": 0
+          },
+          "StaffChange": {
+            "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+            "EffectStaffAmount": 10,
+            "calculationType": 3,
+            "AdditionAbility": 5.0
+          },
+
+          "IsDuration": false,
+          "Weight": 0,
+          "OptionResult": null
+        }
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.csproj.AssemblyReference.cache
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.AssemblyInfoInputs.cache
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.AssemblyInfo.cs
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.csproj.CoreCompileInputs.cache
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\CEO simulator.exe
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\CEO simulator.deps.json
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\CEO simulator.runtimeconfig.json
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\CEO simulator.dll
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\CEO simulator.pdb
+D:\WorkSpace\CEO simulator\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simu.933BE6A2.Up2Date
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.dll
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\refint\CEO simulator.dll
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.pdb
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\CEO simulator.genruntimeconfig.cache
+D:\WorkSpace\CEO simulator\obj\Debug\net8.0\ref\CEO simulator.dll

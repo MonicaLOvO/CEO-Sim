@@ -1,0 +1,2226 @@
+{
+  "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Event, CEO simulator]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 15.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 7,
+                  "OptionResult": "Your investment in compliance has been praised by environmental groups, boosting your company's reputation.(-300$, +15 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "Despite the high cost, the compliance measures had minimal impact on public perception.(-500$, +2 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 2000.0,
+            "ReputationRequirement": 10,
+            "OptionText": "Invest in Compliance"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 3,
+                    "AdditionAbility": 5.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Your lobbying efforts have successfully delayed the regulations, earning you praise from the industry and a morale boost from your staff in next 2 day.(+10 Rep, 5 staffsAbility: +5 per day)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -3.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": -1,
+                    "calculationType": 0,
+                    "AdditionAbility": 0.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Your lobbying efforts failed, and the new regulations have been enforced, resulting in a loss of reputation and staff for 2 days.(-3 Pep, -1 Staff per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 2000.0,
+            "ReputationRequirement": -20,
+            "OptionText": "Lobby Against Regulations"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "No any impact to your company"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -200.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "Your decision to ignore the regulations has resulted in immediate fines and a significant public backlash.(-200$,-5 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Ignore Regulations"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "The government has introduced new environmental regulations that affect your industry.",
+      "EventName": "new regulations",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 7,
+                  "OptionResult": "The cat looks happy and left, you found out that it was sitting on 500$ (+500$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "Your employee saw your behavior, Your reputation in company improves.(+8 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": 35,
+            "OptionText": "Pet him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -100.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Someone take a picture of you feeding cat and post it online (-100$, +10 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1500.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Feed him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -200.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The cat is scared and scratches your clothes, you have to buy a new one now. (-200$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": -2,
+                    "calculationType": 0,
+                    "AdditionAbility": 12.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Staffs see your behavior and decide to leave this company(-2 Staffs)"
+                }
+              ]
+            },
+            "MoneyRequirement": -1000.0,
+            "ReputationRequirement": -200,
+            "OptionText": "yall at him!"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 10,
+                  "OptionResult": "You walk past the cat, nothing happend. But... you can never know what would happen if you interact with the cat, sadly you don't know when is the next time you will meet this cat......'"
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Ignore him"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2, 3 ]
+      },
+      "EventText": "You Accidently meet a little cat.",
+      "EventName": "Cat Event",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 10.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Investment always come with risk, playing save is never a bad choice. as a award, you got 10$(+10$)"
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Do nothing"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -100.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Winnig and losing balanced out, you got nothing back, \nbut help out some start up company has gain you some reputation. (+10 Rep,-100$)"
+                }
+              ]
+            },
+            "MoneyRequirement": 500.0,
+            "ReputationRequirement": 20,
+            "OptionText": "Invest in some small start up company (Require 100$)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 2000.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -25.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "Your risky black market investment paid off handsomely, but your company's reputation suffered due to the association with illegal activities.(+2000$, -25 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": false,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -20.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -1.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 2,
+                  "OptionResult": "The black market investment failed spectacularly, leading to severe financial losses and legal troubles that heavily damaged your company's reputation. in 3 day(-20$,-1 Rep in every money or Rep you earn)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The goverment found out the market, you got nothing back (-10 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "invest a black market (Require 10 Rep)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 2000.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The project worked well and gain 2000$(+2000$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 2.0,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 2,
+                  "OptionResult": "Your risky investment paid off handsomely, your total money have double(*2$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -1000.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "Unfortunately, the high-risk project did not succeed, resulting in financial losses and a temporary hit to your company's reputation.(-1000$,-10 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": 5,
+            "OptionText": "Invest a high risk high return project (Require 1000$)"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "You have an opportunity want to do some investment",
+      "EventName": "investment",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 20.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Your staffs feeling warm and your kindness spread throughout the galaxy(+20 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": 20,
+            "OptionText": "Show some care to the staffs who work till night"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 1,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Your staffs see you at midnight, they freak out and have a mental break down, \ntodays company turnover reduced to half(/2)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 1,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 2.0,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 3,
+                  "OptionResult": "Your staffs see you at midnight, they start to work harder, \ntodays company turnover double(*2$)"
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Check on employee Progress"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 3.0,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 1
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "in 3 day, your company will have triple company turnover, \nbut your staffs thinks you are a horrible boss(x3$,/2 Rep per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": 0,
+            "OptionText": "Ask your staffs to work overtime"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "nothing happened, it a quiet night."
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Do nothing"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [2,3 ]
+      },
+      "EventText": "May be you can walk around in your company?",
+      "EventName": "night walk in company",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 800.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The celebrity endorsement has significantly boosted your sales and improved your company's reputation。(+800$,+8Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.8,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 3,
+                  "OptionResult": "A scandal involving the celebrity has damaged your company's reputation, and sales have taken a hit. In three day(*0.8$ turnover,-2 Rep per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1500.0,
+            "ReputationRequirement": 15,
+            "OptionText": "Accept Endorsement"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Rejecting the endorsement was a missed opportunity, and your competitors have benefited from it.(-300$,-5 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 7,
+                  "OptionResult": "You avoided potential risks by rejecting the endorsement, and your business continues as usual."
+                }
+              ]
+            },
+            "MoneyRequirement": null,
+            "ReputationRequirement": null,
+            "OptionText": "Reject Endorsement"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2, 3 ]
+      },
+      "EventText": "A famous celebrity offers to endorse your company’s products.",
+      "EventName": "Celebrity Endorsement Opportunity",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 1,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1.2,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Your staffs see you and stop being non-productive(*1.2$ turnover today)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Walk around"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.8,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 1.5,
+                    "calculationType": 1
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "in 2 day, your company will have little less company turnover, \nbut your staffs thinks you are a very good boss(x0.8$ turnover,*1.5 Rep per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": 25,
+            "OptionText": "Tell your staffs take brake"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 2.0,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.7,
+                    "calculationType": 1
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "in 3 day, your company will have double company turnover, \nbut your staffs thinks you are a horrible boss(x2$ turnover,*0.7 Rep per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Ask your staffs to work harder"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "May be you can change some company strategy?",
+      "EventName": "day walk in company",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1000.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 3,
+                    "AdditionAbility": -2.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Reducing prices increased your sales volume and market share but negatively impacted staff morale(+1000$, +5 Rep, 5 staffsAbility: -2)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 3,
+                    "calculationType": 3,
+                    "AdditionAbility": -2.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "The reduced prices strained your profits and negatively affected staff morale.(-500$, 3 StaffsAbility: -2)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Reduce Prices"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "Improving product quality attracted loyal customers.(+1500$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 15.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The high costs of quality improvements had minimal impact on customer perception.But your company rating increase(-300$,+15 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": 15,
+            "OptionText": "Improve Product Quality"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "The competitor failed, having no impact on your business."
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 5,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -150.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 3,
+                  "OptionResult": "The competitor gained market share, causing your sales to drop. in 5 day(-150$ per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Ignore Competitor"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "A new competitor has entered the market, offering similar products at lower prices.",
+      "EventName": "New Competitor Emerges",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 15.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Breach contained, reputation restored.(-300$, 15 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 2500.0,
+            "ReputationRequirement": 5,
+            "OptionText": "Hire Security Experts"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "Your transparency about the breach has been praised, resulting in trust and improved reputation.(+8 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -50.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 6,
+                  "OptionResult": "Announcing the breach led to immediate backlash and loss of clients, hurting your reputation. in 2 day (-50$ and -2 Rep per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": 20,
+            "OptionText": "Publicly Announce Breach"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Your internal team successfully contained the breach, slightly improving your reputation.(+5 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.9,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "The internal fix failed, worsening the data leak and severely damaging your reputation and company turnover. in 3 day(*0.9$ turnover, -2 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Attempt Internal Fix"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2, 3 ]
+      },
+      "EventText": "Your company’s data has been compromised in a cybersecurity breach.",
+      "EventName": "Cybersecurity Breach",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -100.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 7,
+                  "OptionResult": "Your decision to hire extra security has prevented further incidents, giving you peace of mind and slightly boosting your reputation.(-100$,+5 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 1.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "Despite the high cost, the extra security measures didn't seem to make much difference, leaving you frustrated.(-300$,+1 Rep)\\"
+                }
+              ]
+            },
+            "MoneyRequirement": 2000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Hire Extra Security"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Your insurance claim was successful, covering most of your losses and helping you recover quickly.(+500$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -100.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 6,
+                  "OptionResult": "The insurance only covered a fraction of the losses, leaving you to bear the rest of the financial burden.in two day(-100$ per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": 20,
+            "OptionText": "File Insurance Claim"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1.2,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Taking time off allowed you to resolve personal issues, leading to a more focused and motivated return to work, which boosted staff morale. in 3 day (*1.2 company turnout per day)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.8,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Your absence from the company led to a decline in performance,resulting in financial losses and a drop in staff morale. in 3 day (*0.8 company turnout per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": 10,
+            "OptionText": "Take Time Off to Handle the Situation"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "The incident didn't effect you at all..."
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -150.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "Ignoring the incident caused personal stress to build up, negatively affecting your performance and the company's reputation.(-150$ -2 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Ignore the Incident"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 2, 3 ]
+      },
+      "EventText": "There has been a burglary at your home.",
+      "EventName": "Home Burglary Incident",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Prize is a gadget.(+300$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1.2,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Prize is a vacation package.which you gave as a reward to your top employee, boosting morale. in 3 day(*1.2$ turnover)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1500.0,
+            "ReputationRequirement": 15,
+            "OptionText": "Claim the Prize"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 5.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Donating the prize went largely unnoticed, but it still provided a slight boost to your reputation.(+5 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 2,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Donating the prize to a local charity was highly appreciated, significantly boosting your reputation.in 2 day(+8 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": 0.0,
+            "ReputationRequirement": 25,
+            "OptionText": "Donate the Prize"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 800.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "Prize sells for a high price.(+800$)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 3.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "No one wanted to buy this gift, so you gave it away.(+3 Rep)"
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Sell the Prize"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "You enter a local raffle and end up winning an exciting prize.",
+      "EventName": "Winning a Raffle",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 10.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 7,
+                  "OptionResult": "Helping someone in need on your commute was recognized and shared on social media, boosting your reputation.(+10 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Helping someone in need delayed your arrival to work, causing a minor financial setback.(-300$)"
+                }
+              ]
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": 15,
+            "OptionText": "Help Someone in Need"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 3,
+                    "AdditionAbility": 8.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "Listening to an educational podcast gave you valuable insights that you shared with your team.(5 staffs ability +8)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -400.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "The podcast turned out to be uninformative, having no significant impact.And wasted your time.(-400$)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Listen to an Educational Podcast"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 2,
+                    "calculationType": 3,
+                    "AdditionAbility": 5.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Taking a different route led you to discover a new coffee shop, and sharing the find to your staffs.(2 staffs ability +5)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -300.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Taking a different route resulted in unexpected traffic, causing a minor delay and slight financial impact.(-300$)"
+                }
+              ]
+            },
+            "MoneyRequirement": -1000000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Take a Different Route"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2 ]
+      },
+      "EventText": "On your way to work, you encounter different situations during your morning commute.",
+      "EventName": "Morning Commute",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 5,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 1.1,
+                    "calculationType": 1
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": true,
+                  "Weight": 5,
+                  "OptionResult": "Capturing beautiful photos of the night sky and posted on your company app which boosted your staffs morale. in 5 day(*1.1$ turnover)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "You saved the picture. And had a great night. "
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "Capture the Moment in Photography"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 6,
+                  "OptionResult": "Using the stargazing time for reflection provided valuable insights, boosting your reputation when you applied them at work.(+8 Rep)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 4,
+                  "OptionResult": "It was a peaceful but uneventful night of stargazing, with no significant impact."
+                }
+              ]
+            },
+            "MoneyRequirement": 1500.0,
+            "ReputationRequirement": -1000,
+            "OptionText": "Use the Time for Reflection"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 2, 3 ]
+      },
+      "EventText": "You decide to spend the night stargazing in a nearby park.",
+      "EventName": "Stargazing Night",
+      "InCompany": false
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -80.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 10,
+                    "calculationType": 3,
+                    "AdditionAbility": 3.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 7,
+                  "OptionResult": "Hiring a renowned trainer significantly motivated your staff, and their ability boosted. in 3 day (10 staffs ability +3 per day)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -80.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": -2.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 10,
+                    "calculationType": 3,
+                    "AdditionAbility": 1.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 3,
+                  "OptionResult": "The trainer's methods were too advanced for your staff, leading to frustration in 3 day(-2 Rep, 10 staff ability +1 per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": 2000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Hire a Renowned Trainer (cost 80$ per day in 3 day)"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 5,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 3,
+                    "AdditionAbility": 2.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 4,
+                  "OptionResult": "The team-building activities helped your staff bond and improve collaboration. in 5 day (5 staffs ability +2 per day)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.EndDurationEffect, CEO simulator",
+                  "Duration": 3,
+                  "IsEndEffect": true,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 2,
+                    "calculationType": 2,
+                    "AdditionAbility": 0.0
+                  },
+                  "IsDuration": true,
+                  "Weight": 3,
+                  "OptionResult": "The team-building activities were not well-received by the staff. in 3 day (random 2 staffs ability per day)"
+                }
+              ]
+            },
+            "MoneyRequirement": -1000000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Team-Building Activities"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2, 3 ]
+      },
+      "EventText": "You decide to organize an intensive training camp at the company office to enhance staff skills and morale.",
+      "EventName": "On-Site Training Camp",
+      "InCompany": true
+    },
+    {
+      "$type": "CEO_simulator.EntityInfomation.Event, CEO simulator",
+      "OptionList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.Option, CEO simulator]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "You leave the camp..."
+                }
+              ]
+            },
+            "MoneyRequirement": -100000.0,
+            "ReputationRequirement": -100000,
+            "OptionText": "You are not very interested in this training camp and decide to leave"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -650.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 0,
+                    "AdditionAbility": 0.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "The graduates had high salary expectations(cost 650$, +5 staffs)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -400.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 0,
+                    "AdditionAbility": 0.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "You hired graduates with a lower price (cost 400$ +5 staffs)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -500.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 8.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 0,
+                    "AdditionAbility": 0.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 3,
+                  "OptionResult": "You hired graduates from the training camp, cause staffs respect you more.(cost 500$, +8 Rep, +5 staffs)"
+                }
+              ]
+            },
+            "MoneyRequirement": 1000.0,
+            "ReputationRequirement": -10000,
+            "OptionText": "Hire some Graduates"
+          },
+          {
+            "$type": "CEO_simulator.EntityInfomation.Option, CEO simulator",
+            "Effects": {
+              "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EffectFolder.Effect, CEO simulator]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.StaffChange, CEO simulator",
+                    "EffectStaffAmount": 5,
+                    "calculationType": 3,
+                    "AdditionAbility": 5.0
+                  },
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "Observing the training techniques used at the camp provided you with new insights that you shared with your staffs.(5 staffs ability +5)"
+                },
+                {
+                  "$type": "CEO_simulator.EntityInfomation.EffectFolder.InstantEffect, CEO simulator",
+                  "ActualMoneyEffect": 0.0,
+                  "ActualReputationEffect": 0.0,
+                  "MoneyChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.MoneyChange, CEO simulator",
+                    "Value": -50.0,
+                    "calculationType": 0
+                  },
+                  "ReputationChange": {
+                    "$type": "CEO_simulator.EntityInfomation.EffectFolder.ActualEffects.ReputationChange, CEO simulator",
+                    "Value": 0.0,
+                    "calculationType": 0
+                  },
+                  "StaffChange": null,
+                  "IsDuration": false,
+                  "Weight": 5,
+                  "OptionResult": "The training techniques observed were not applicable to your company, resulting in no significant impact.(-50$)"
+                }
+              ]
+            },
+            "MoneyRequirement": -10000.0,
+            "ReputationRequirement": 20,
+            "OptionText": "Observe Training Techniques"
+          }
+        ]
+      },
+      "EventTypeList": {
+        "$type": "System.Collections.Generic.List`1[[CEO_simulator.EntityInfomation.EventType, CEO simulator]], System.Private.CoreLib",
+        "$values": [ 1, 2, 3 ]
+      },
+      "EventText": "You visit a training camp company to scout potential new staff members for your company. And improve the current staffs.",
+      "EventName": "Off-Site Recruitment Camp",
+      "InCompany": false
+    }
+  ]
+}
