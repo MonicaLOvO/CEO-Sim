@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WorkSpace\\CEO simulator\\",
+  "WorkspaceRootPath": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|d:\\workspace\\ceo simulator\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|d:\\workspace\\ceo sim git\\ceo-sim\\entityinfomation\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|solutionrelative:entityinfomation\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|d:\\workspace\\ceo sim git\\ceo-sim\\starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|solutionrelative:starting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|d:\\workspace\\ceo simulator\\mainlogic\\managetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|d:\\workspace\\ceo sim git\\ceo-sim\\mainlogic\\managetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E2DCB6B-1251-4B31-BD11-2DFE6898DB23}|CEO simulator.csproj|solutionrelative:mainlogic\\managetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,33 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManageTool.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\CEO simulator\\MainLogic\\ManageTool.cs",
-              "RelativeDocumentMoniker": "MainLogic\\ManageTool.cs",
-              "ToolTip": "D:\\WorkSpace\\CEO simulator\\MainLogic\\ManageTool.cs",
-              "RelativeToolTip": "MainLogic\\ManageTool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\EntityInfomation\\Event.cs",
+              "RelativeDocumentMoniker": "EntityInfomation\\Event.cs",
+              "ToolTip": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\EntityInfomation\\Event.cs",
+              "RelativeToolTip": "EntityInfomation\\Event.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T22:02:47.719Z",
+              "WhenOpened": "2024-07-13T21:40:12.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Starting.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\CEO simulator\\Starting.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\Starting.cs",
               "RelativeDocumentMoniker": "Starting.cs",
-              "ToolTip": "D:\\WorkSpace\\CEO simulator\\Starting.cs",
+              "ToolTip": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\Starting.cs",
               "RelativeToolTip": "Starting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T22:02:37.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T22:53:28.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageTool.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\MainLogic\\ManageTool.cs",
+              "RelativeDocumentMoniker": "MainLogic\\ManageTool.cs",
+              "ToolTip": "D:\\WorkSpace\\CEO Sim Git\\CEO-Sim\\MainLogic\\ManageTool.cs",
+              "RelativeToolTip": "MainLogic\\ManageTool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T22:02:47.719Z"
             }
           ]
         }
